@@ -32,22 +32,21 @@ root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm#
 
 NOTES: Please Check Your Disk Type Before Running Script
 ```
-root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm# ./install-mikrotik.sh 
+root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm# ./install-mikrotik.sh
+
 NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
 sda      8:0    0  30G  0 disk 
 ├─sda1   8:1    0   1M  0 part 
 ├─sda2   8:2    0  27G  0 part /
 └─sda3   8:3    0   3G  0 part [SWAP]
-                                                    
-                                                    
+                                                                                                        
    ==============================================   
            INSTALL MIKROTIK ON UBUNTU VPS           
    ==============================================   
                                                     
    Input Type Your Disk : sda
                                                     
-   ==============================================   
-                                                    
+   ==============================================                                                      
                                                     
 Hit:1 http://id.archive.ubuntu.com/ubuntu noble InRelease
 Hit:2 http://id.archive.ubuntu.com/ubuntu noble-updates InRelease
