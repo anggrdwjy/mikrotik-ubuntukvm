@@ -12,10 +12,11 @@ Before using this program, make sure to update the repository `sudo apt update` 
 * Newer
 
 ### Issue Bandwidth
-* Check Your License MikroTik
-* P1 Trial (Limit 1Gbps Trial 60 Days)
-* P1 Perpetual (Limit 1Gbps Upload per CHR Interface, Lifetime)
-* P10 Perpetual (Limit 10Gbps Upload per CHR Interface, Lifetime)
+* Check Your License MikroTik CHR x86
+* Free (Limit 1Mbit Upload per CHR Interface)
+* P-Trial (Limit Trial 60 Days)
+* P1 Perpetual (Limit 1Gbit Upload per CHR Interface, Lifetime)
+* P10 Perpetual (Limit 10Gbit Upload per CHR Interface, Lifetime)
 * P-Unlimited (Unlimited Speed Upload per CHR Interface, Lifetime)
 
 ## Installing Program
