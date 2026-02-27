@@ -1,17 +1,18 @@
-## This Script Automation For Build MikroTik CHR on Ubuntu KVM or VPS Cloud Based Proxmox
+## Proof of Concept - Build MikroTik CHR x86 on Ubuntu Cloud Based Proxmox
 
 ### Information
 
 Before using this program, make sure to update the repository `sudo apt update` and install git `sudo apt install git -y` to maximize the running of the program. I am not responsible for any consequences caused by this program. It is recommended to use this script when the new server is installed. This program has been tested on Ubuntu Server 24.04 or Newer
 
 ### Features
-* Simple Script For Build MikroTik CHR on Cloud
+* Script For Build MikroTik CHR x86 on Ubuntu Cloud Based Proxmox (VPS Proxmox Architecture)
 
 ### Tested Version
 * Ubuntu 24.04
 * Newer
 
 ## Installing Program
+
 ```
 root@ubuntu:/home/ubuntu# git clone https://github.com/anggrdwjy/mikrotik-ubuntukvm.git
 Cloning into 'mikrotik-ubuntukvm'...
