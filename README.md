@@ -11,6 +11,13 @@ Before using this program, make sure to update the repository `sudo apt update` 
 * Ubuntu 24.04
 * Newer
 
+### Issue Bandwidth
+* Check Your License MikroTik
+* P1 Trial (Limit 1Gbps Trial 60 Days)
+* P1 Perpetual (Limit 1Gbps Upload per CHR Interface, Lifetime)
+* P10 Perpetual (Limit 10Gbps Upload per CHR Interface, Lifetime)
+* P-Unlimited (Unlimited Speed Upload per CHR Interface, Lifetime)
+
 ## Installing Program
 
 ```
