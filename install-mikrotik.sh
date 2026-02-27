@@ -1,10 +1,8 @@
 #!/bin/bash
 #By Anggarda Saputra Wijaya
 #Install Mikrotik on VPS Ubuntu
-lsblk
-#
-#
 echo "                                                    ";
+lsblk
 echo "                                                    ";
 echo "   ==============================================   ";
 echo "           INSTALL MIKROTIK ON UBUNTU VPS           ";
@@ -15,9 +13,6 @@ read disk
 echo "                                                    ";
 echo "   ==============================================   ";
 echo "                                                    ";
-echo "                                                    ";
-#
-#
 apt update && apt install wget net-tools -y
 wget https://download.mikrotik.com/routeros/6.49.18/chr-6.49.18.img.zip -O chr.img.zip
 gunzip -c chr.img.zip > chr.img && rm -f chr.img.zip
@@ -31,4 +26,3 @@ umount /mnt
 echo u > /proc/sysrq-trigger
 dd if=chr.img bs=1024 of=/dev/$disk
 reboot
-
