@@ -24,7 +24,6 @@ Before using this program, make sure to update the repository `sudo apt update` 
 * P-Unlimited (Unlimited Speed Upload per CHR Interface, Lifetime)
 
 ## Installing Program
-
 ```
 root@ubuntu:/home/ubuntu# git clone https://github.com/anggrdwjy/mikrotik-ubuntukvm.git
 Cloning into 'mikrotik-ubuntukvm'...
@@ -43,7 +42,7 @@ root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm#
 
 ## Running Program
 
-NOTES: Please Check Your Disk Type Before Running Script
+#### NOTES: Please Check Your Disk Type Before Running Script
 ```
 root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm# ./install-mikrotik.sh
 
@@ -129,7 +128,7 @@ root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm#
 
 ## Verification
 
-Remote SSH or Telnet Your IP Address, Default Login MikroTik Username (Admin) Password (Blank)
+##### Remote SSH or Telnet Your IP Address, Default Login MikroTik Username (Admin) Password (Blank)
 ```
 
   MMMM    MMMM       KKK                          TTTTTTTTTTT      KKK
