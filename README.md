@@ -128,7 +128,7 @@ root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm#
 
 ## Verification
 
-##### Remote SSH or Telnet Your IP Address, Default Login MikroTik Username (Admin) Password (Blank)
+#### Remote SSH or Telnet Your IP Address, Default Login MikroTik Username (Admin) Password (Blank)
 ```
 
   MMMM    MMMM       KKK                          TTTTTTTTTTT      KKK
