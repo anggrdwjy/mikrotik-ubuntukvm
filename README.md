@@ -8,14 +8,14 @@
 
 Before using this program, make sure to update the repository `sudo apt update` and install git `sudo apt install git -y` to maximize the running of the program. I am not responsible for any consequences caused by this program. It is recommended to use this script when the new server is installed. This program has been tested on Ubuntu Server 24.04 or Newer
 
-### Features
+#### Features
 * Script For Build MikroTik CHR x86 on Ubuntu Cloud Based Proxmox (VPS Proxmox Architecture)
 
 ### Tested Version
 * Ubuntu 24.04
 * Newer
 
-### Issue Bandwidth
+#### Issue Bandwidth
 * Check Your License MikroTik CHR x86
 * Free (Limit 1Mbit Upload per CHR Interface)
 * P-Trial (Limit Trial 60 Days)
@@ -162,7 +162,7 @@ new password>
 * [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
 * [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
 
-### Bugs
+#### Bugs
 
 Please open an issue on GitHub with as much information as possible if you found a bug.
 * Your KVM or VPS
