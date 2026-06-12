@@ -27,7 +27,7 @@
 
 ## B. Installing Program
 
-Before using this program, make sure to update the repository `sudo apt update` and install git `sudo apt install git -y` to maximize the running of the program. I am not responsible for any consequences caused by this program. It is recommended to use this script when the new server is installed. This program has been tested on Ubuntu Server 24.04 or Newer
+Before using this program, make sure to update the repository `sudo apt update` and install git `sudo apt install git -y` to maximize the running of the program. I am not responsible for any consequences caused by this program. It is recommended to use this script when the new server is installed. This program has been tested on Ubuntu Server 24.04 and 26.04
 
 ```
 root@ubuntu:/home/ubuntu# git clone https://github.com/anggrdwjy/mikrotik-ubuntukvm.git
@@ -41,7 +41,7 @@ root@ubuntu:/home/ubuntu# cd mikrotik-ubuntukvm/
 root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm# chmod -R 777 *
 root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm# ls -l
 total 4
--rwxrwxrwx 1 root root 1328 Jan  3 10:22 install-mikrotik.sh
+-rwxrwxrwx 1 root root 1328 Jan  3 10:22 install-mikrotik-6.49.sh
 root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm#
 ```
 
@@ -49,7 +49,7 @@ root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm#
 
 #### NOTES: Please Check Your Disk Type Before Running Script
 ```
-root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm# ./install-mikrotik.sh
+root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm# ./install-mikrotik-6.49.sh
 
 NAME   MAJ:MIN RM SIZE RO TYPE MOUNTPOINTS
 sda      8:0    0  30G  0 disk 
