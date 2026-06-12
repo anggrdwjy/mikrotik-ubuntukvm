@@ -14,8 +14,8 @@
 * Script For Build MikroTik CHR x86 on Ubuntu Cloud Based Proxmox (VPS Proxmox Architecture)
 
 #### Tested Version
-* Ubuntu 24.04
-* Newer
+* Ubuntu 24.04 -> Mikrotik RoS 6.49.18
+* Ubuntu 26.04 -> Mikrotik RoS 7.21.x
 
 #### Issue Bandwidth
 * Check Your License MikroTik CHR x86
