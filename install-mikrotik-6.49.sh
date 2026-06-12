@@ -3,7 +3,6 @@
 #Install Mikrotik on VPS Ubuntu
 echo "                                                    ";
 lsblk
-echo "                                                    ";
 echo "   ==============================================   ";
 echo "           INSTALL MIKROTIK ON UBUNTU VPS           ";
 echo "   ==============================================   ";
@@ -12,7 +11,6 @@ echo -n "   Input Type Your Disk : "
 read disk
 echo "                                                    ";
 echo "   ==============================================   ";
-echo "                                                    ";
 apt update && apt install wget net-tools -y
 wget https://download.mikrotik.com/routeros/6.49.18/chr-6.49.18.img.zip -O chr.img.zip
 gunzip -c chr.img.zip > chr.img && rm -f chr.img.zip
