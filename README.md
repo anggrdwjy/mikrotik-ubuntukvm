@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="img/banner.png">
+<img src="banner.png">
 </p>
 
 #### Features
