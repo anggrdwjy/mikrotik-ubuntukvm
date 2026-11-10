@@ -1,17 +1,10 @@
-## A. Overview Build MikroTik on Ubuntu
 
 <p align="center">
 <img src="img/banner.png">
 </p>
 
-#### Information
-* [A. Overview Build MikroTik on Ubuntu](#a-overview-build-mikrotik-on-ubuntu)
-* [B. Installing Program](#b-installing-program)
-* [C. Running Program](#c-running-program)
-* [D. Verification](#d-verification)
-
 #### Features
-* Script For Build MikroTik CHR x86 on Ubuntu Cloud Based Proxmox (VPS Proxmox Architecture)
+* Build MikroTik CHR x86 on Ubuntu Cloud Based Proxmox (VPS Proxmox Architecture)
 
 #### Tested Version
 * Ubuntu 24.04 -> Mikrotik RoS 6.49.18
@@ -25,7 +18,7 @@
 * P10 Perpetual (Limit 10Gbit Upload per CHR Interface, Lifetime)
 * P-Unlimited (Unlimited Speed Upload per CHR Interface, Lifetime)
 
-## B. Installing Program
+#### Installing Program
 
 Before using this program, make sure to update the repository `sudo apt update` and install git `sudo apt install git -y` to maximize the running of the program. I am not responsible for any consequences caused by this program. It is recommended to use this script when the new server is installed. This program has been tested on Ubuntu Server 24.04 and 26.04
 
@@ -44,8 +37,6 @@ total 4
 -rwxrwxrwx 1 root root 1328 Jan  3 10:22 install-mikrotik-6.49.sh
 root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm#
 ```
-
-## C. Running Program
 
 #### NOTES: Please Check Your Disk Type Before Running Script
 ```
@@ -131,8 +122,6 @@ The system will reboot now!
 root@ubuntu:/home/ubuntu/mikrotik-ubuntukvm# 
 ```
 
-## D. Verification
-
 #### Remote SSH or Telnet Your IP Address, Default Login MikroTik Username (Admin) Password (Blank)
 ```
 
@@ -162,7 +151,7 @@ new password>
 [admin@MikroTik] > 
 ```
 
-## Support
+####  Support
 
 * [:octocat: Follow me on GitHub](https://github.com/anggrdwjy)
 * [🔔 Subscribe me on Youtube](https://www.youtube.com/@anggarda.wijaya)
@@ -173,3 +162,9 @@ Please open an issue on GitHub with as much information as possible if you found
 * Your KVM or VPS
 * All the logs and message outputted
 * etc
+
+## License
+
+This project is licensed under the **MIT License**—it is free to use, modify, and distribute, including for commercial purposes, as long as you include the copyright notice and this license.
+
+See the full file at [`LICENSE`](LICENSE).
